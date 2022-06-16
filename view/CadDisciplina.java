@@ -159,7 +159,7 @@ public class CadDisciplina extends JFrame implements ActionListener {
 		DisciplinaDAO dao = new DisciplinaDAO();
 
 		d.setCargaHoraria(Integer.parseInt(cargaHoraria.getText()));
-		d.setCodNome(codDisc.getText() + "/" + nomeDisc.getText());
+		d.setCodNome(codDisc.getText() + "//" + nomeDisc.getText());
 		int as = 0;
 		if (jrb_1.isSelected()) {
 			as = 1;

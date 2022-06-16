@@ -57,11 +57,10 @@ public class Tela extends JFrame implements ActionListener {
 			}
 		});
 		
-		prototipo = new JButton("Prototipos");
+		prototipo = new JButton("Prototipo");
 		prototipo.setSize(150, 50);
 		prototipo.setLocation(280, 200);
 		prototipo.setFont(new Font("Arial", Font.CENTER_BASELINE, 20));
-		
 		prototipo.setCursor(new java.awt.Cursor(Cursor.HAND_CURSOR) {
 		});
 		prototipo.addActionListener(new ActionListener() {

@@ -174,20 +174,20 @@ public class CadAluno extends JFrame implements ActionListener {
 
 		DNomeDisciplina = new DefaultListModel();
 
-		DNomeDisciplina.addElement("24586/Programacao Java");
-		DNomeDisciplina.addElement("75964/Educacao fisica");
-		DNomeDisciplina.addElement("14682/Programacao C");
-		DNomeDisciplina.addElement("23549/Direito humanos");
-		DNomeDisciplina.addElement("35485/Programacao Python");
-		DNomeDisciplina.addElement("12597/Interface humano pc");
-		DNomeDisciplina.addElement("32847/Ciencias sociais");
-		DNomeDisciplina.addElement("25491/Educacao ambiental");
-		DNomeDisciplina.addElement("26591/Estrutura de dados");
-		DNomeDisciplina.addElement("32657/Matematica discreta");
-		DNomeDisciplina.addElement("25491/Calculo para computacao");
-		DNomeDisciplina.addElement("26591/Qualidade de software");
-		DNomeDisciplina.addElement("32657/Sistemas operacionais");
-		DNomeDisciplina.addElement("25498/Topicos de matematica aplicada");
+		DNomeDisciplina.addElement("24586//Programacao Java");
+		DNomeDisciplina.addElement("75964//Educacao fisica");
+		DNomeDisciplina.addElement("14682//Programacao C");
+		DNomeDisciplina.addElement("23549//Direito humanos");
+		DNomeDisciplina.addElement("35485//Programacao Python");
+		DNomeDisciplina.addElement("12597//Interface humano pc");
+		DNomeDisciplina.addElement("32847//Ciencias sociais");
+		DNomeDisciplina.addElement("25491//Educacao ambiental");
+		DNomeDisciplina.addElement("26591//Estrutura de dados");
+		DNomeDisciplina.addElement("32657//Matematica discreta");
+		DNomeDisciplina.addElement("25491//Calculo para computacao");
+		DNomeDisciplina.addElement("26591//Qualidade de software");
+		DNomeDisciplina.addElement("32657//Sistemas operacionais");
+		DNomeDisciplina.addElement("25498//Topicos de matematica aplicada");
 		mostrarCod();
 		nomeDisciplina = new JList<String>(DNomeDisciplina);
 
