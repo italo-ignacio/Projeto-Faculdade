@@ -1,0 +1,47 @@
+CREATE SCHEMA `faculdade` ;
+
+CREATE TABLE `faculdade`.`aluno` (
+  `id` INT NOT NULL auto_increment,
+  `Matricula` VARCHAR(255) ,
+  `Nome` VARCHAR(255) ,
+  `DataNasc` VARCHAR(255) ,
+  `CodCurso` VARCHAR(255) , 
+  `NomeCurso` VARCHAR(255) ,
+  `CodNomeDiciplina` VARCHAR(255) , 
+  `Falta` INT ,
+  `N1` FLOAT , 
+  `N2` FLOAT , 
+  `Media` FLOAT , 
+  PRIMARY KEY (`id`)); 
+
+  CREATE TABLE `faculdade`.`curso` (
+  `id` INT NOT NULL auto_increment,
+  `CodCurso` VARCHAR(255) ,
+  `NomeCurso` VARCHAR(255) ,
+  `TipoCurso` VARCHAR(255) ,
+  `CodInstituto` VARCHAR(255) , 
+  `CargaHoraria` INT ,
+  PRIMARY KEY (`id`)); 
+
+  CREATE TABLE `faculdade`.`disciplina` (
+  `id` INT NOT NULL auto_increment,
+  `CodNomeDiciplina` VARCHAR(255) , 
+  `CargaHoraria` INT ,
+  `AulasSemana` INT ,
+  PRIMARY KEY (`id`)); 
+
+CREATE TABLE `faculdade`.`professor`   (
+  `id` INT NOT NULL auto_increment,
+  `IdentProf` VARCHAR(255) ,
+  `NomeProf` VARCHAR(255) ,
+  `Rua` VARCHAR(255) ,
+  `Bairro` VARCHAR(255) ,
+  `Cidade` VARCHAR(255) ,
+  `Estado` VARCHAR(255) ,
+  `Tel` VARCHAR(255) ,
+  `Cel` VARCHAR(255) ,
+  `Data` VARCHAR(255) ,
+  `Especialidades` VARCHAR(255) ,
+  `TituloProf` VARCHAR(255) ,
+  `Numero` INT ,
+  PRIMARY KEY (`id`));
